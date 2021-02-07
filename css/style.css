@@ -1,0 +1,141 @@
+/* taustan väri */
+.navbar-custom {
+    background-color: rgba(101, 193, 216, 0.902);
+}
+
+/* brandin ja tekstin väri */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text{
+    color: rgba(38, 57, 66, 0.8);
+    font-family: 'Raleway', sans-serif;
+}
+
+/* linkin väri */
+.navbar-custom .navbar-nav .nav-link {
+    color: hsla(202, 86%, 29%, 0.8);
+    font-family: 'Raleway', sans-serif;
+}
+
+/* aktiivisen & hover-linkin väri */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(10, 91, 138, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.nav-item .dropdown-menu a:hover {
+    color: white !important;
+    background: rgb(104, 228, 207) !important;
+    cursor: pointer;
+}
+
+.carousel-inner img {
+    width: 100%; 
+    margin: auto;
+    display: block;
+    min-height:200px; 
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+    
+.carousel-control-next-icon {
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+      display: none;     
+} 
+}
+
+.nav-link.active {
+    color: white !important;
+}
+
+body { position: relative; 
+}
+
+#galleria {
+    position: relative;
+    
+  }
+
+#suuntaukset img {
+    width: 100%;
+    max-width: 300px;
+}
+
+#suuntaikset {
+    width: 80%;
+    margin: auto;
+}
+
+.card-header {
+    background-color: rgba(54, 162, 189, 0.902) !important;
+}
+
+.card-link {
+    color: hsla(203, 66%, 13%, 0.8) !important;
+}
+
+#videoita {
+    max-width: 800px;
+    width: 100%;
+}
+
+#videoita .nav-link.active {
+    color: rgb(245, 245, 245);
+    background-color: rgba(54, 162, 189, 0.902);
+}
+
+#videoita .nav-link {
+    color: rgb(95, 149, 180);
+    background-color: rgb(212, 207, 196);
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], [type=number], [type=email], [type=tel], [type=date], [type=textarea], select {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: rgba(54, 162, 189, 0.902);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #102d63;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    
+  }
+
+
+
+
+
+
+  
